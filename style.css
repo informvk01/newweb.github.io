@@ -1,0 +1,55 @@
+ body {
+            background: url(image20.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            background-size: cover;            
+        }
+        
+        .menudropdown {
+            width: 55%;
+            height: 100px;
+            margin: 0px auto;
+        }
+        
+        .menudropdown ul {
+           padding: 0px;
+            
+        }
+        
+        .menudropdown ul li {
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            list-style: none;
+            float: left;
+            background-color: black;
+            opacity: 0.6;
+         }
+        
+        .menudropdown ul li ul{
+            display: none;
+        }
+        
+        .menudropdown ul li:hover >ul{
+            display: block;
+        }
+        
+        .menudropdown ul li:hover{
+            background-color: #32CD32;
+            opacity: 0.9;
+        }
+        
+        .menudropdown ul li ul li {
+            position: relative;
+        }
+        
+         .menudropdown ul li ul li ul {
+            position: absolute;
+             left: 200px;
+             top: 0px;
+        }
+    
